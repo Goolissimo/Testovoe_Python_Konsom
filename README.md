@@ -11,4 +11,4 @@ docker-compose up -d --build
 ```docker
 docker-compose down
 ```
-![GitHub Logo](/Схема архитектуры.png)
+![GitHub Logo](/Architecture_scheme.png)
