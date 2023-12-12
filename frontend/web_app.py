@@ -1,7 +1,7 @@
 import streamlit as st
 import requests
 
-#API_URL = "http://.0.0.1:8000" для зауп
+#API_URL = "http://0.0.0.0:8000" для зауп
 API_URL = "http://fastapi:8000"
 
 st.title("Генерация одноразовых секретов")
