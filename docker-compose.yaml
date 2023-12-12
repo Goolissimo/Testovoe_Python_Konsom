@@ -1,0 +1,17 @@
+version: '1'
+
+services:
+  streamlit:
+    build: frontend
+    ports:
+      - 8501:8501
+    volumes:
+        - ./storage:/storage
+    depends_on:
+      - fastapi
+  fastapi:
+    build: backend
+    ports:
+      - 8000:8000
+    volumes:
+      - ./storage:/storage
